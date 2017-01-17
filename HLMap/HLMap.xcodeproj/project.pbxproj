@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70B2C1A71E2DE0CA0022A9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C1A61E2DE0CA0022A9A0 /* AppDelegate.swift */; };
+		70B2C1A91E2DE0CA0022A9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C1A81E2DE0CA0022A9A0 /* ViewController.swift */; };
+		70B2C1AC1E2DE0CA0022A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B2C1AA1E2DE0CA0022A9A0 /* Main.storyboard */; };
+		70B2C1AE1E2DE0CA0022A9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B2C1AD1E2DE0CA0022A9A0 /* Assets.xcassets */; };
+		70B2C1B11E2DE0CA0022A9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B2C1AF1E2DE0CA0022A9A0 /* LaunchScreen.storyboard */; };
+		70B2C1BC1E2DE0CA0022A9A0 /* HLMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C1BB1E2DE0CA0022A9A0 /* HLMapTests.swift */; };
+		70B2C1C71E2DE0CA0022A9A0 /* HLMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C1C61E2DE0CA0022A9A0 /* HLMapUITests.swift */; };
+		70B2C1D51E2DE1350022A9A0 /* HLCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C1D41E2DE1350022A9A0 /* HLCoreData.swift */; };
+		D60E02C5EC3C36565F25A509 /* libPods-HLMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24415CD71007782743B45512 /* libPods-HLMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B2C1B81E2DE0CA0022A9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B2C19B1E2DE0CA0022A9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B2C1A21E2DE0CA0022A9A0;
+			remoteInfo = HLMap;
+		};
+		70B2C1C31E2DE0CA0022A9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B2C19B1E2DE0CA0022A9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B2C1A21E2DE0CA0022A9A0;
+			remoteInfo = HLMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24415CD71007782743B45512 /* libPods-HLMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B5AE12B8097ED19ED5C8B0 /* Pods-HLMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLMap/Pods-HLMap.release.xcconfig"; sourceTree = "<group>"; };
+		7015D7731E2DE3560062D84D /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		70793A90001B7B396462070B /* Pods-HLMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLMap/Pods-HLMap.debug.xcconfig"; sourceTree = "<group>"; };
+		70B2C1A31E2DE0CA0022A9A0 /* HLMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B2C1A61E2DE0CA0022A9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70B2C1A81E2DE0CA0022A9A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70B2C1AB1E2DE0CA0022A9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70B2C1AD1E2DE0CA0022A9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B2C1B01E2DE0CA0022A9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70B2C1B21E2DE0CA0022A9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B2C1B71E2DE0CA0022A9A0 /* HLMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B2C1BB1E2DE0CA0022A9A0 /* HLMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLMapTests.swift; sourceTree = "<group>"; };
+		70B2C1BD1E2DE0CA0022A9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B2C1C21E2DE0CA0022A9A0 /* HLMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B2C1C61E2DE0CA0022A9A0 /* HLMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLMapUITests.swift; sourceTree = "<group>"; };
+		70B2C1C81E2DE0CA0022A9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B2C1D41E2DE1350022A9A0 /* HLCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLCoreData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B2C1A01E2DE0CA0022A9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60E02C5EC3C36565F25A509 /* libPods-HLMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1B41E2DE0CA0022A9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1BF1E2DE0CA0022A9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C5BDC2FED40348FB9C432D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70793A90001B7B396462070B /* Pods-HLMap.debug.xcconfig */,
+				34B5AE12B8097ED19ED5C8B0 /* Pods-HLMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70B2C19A1E2DE0CA0022A9A0 = {
+			isa = PBXGroup;
+			children = (
+				70B2C1A51E2DE0CA0022A9A0 /* HLMap */,
+				70B2C1BA1E2DE0CA0022A9A0 /* HLMapTests */,
+				70B2C1C51E2DE0CA0022A9A0 /* HLMapUITests */,
+				70B2C1A41E2DE0CA0022A9A0 /* Products */,
+				27C5BDC2FED40348FB9C432D /* Pods */,
+				A29622CC460C1622407CACB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70B2C1A41E2DE0CA0022A9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B2C1A31E2DE0CA0022A9A0 /* HLMap.app */,
+				70B2C1B71E2DE0CA0022A9A0 /* HLMapTests.xctest */,
+				70B2C1C21E2DE0CA0022A9A0 /* HLMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B2C1A51E2DE0CA0022A9A0 /* HLMap */ = {
+			isa = PBXGroup;
+			children = (
+				70B2C1A61E2DE0CA0022A9A0 /* AppDelegate.swift */,
+				70B2C1A81E2DE0CA0022A9A0 /* ViewController.swift */,
+				70B2C1AA1E2DE0CA0022A9A0 /* Main.storyboard */,
+				70B2C1AD1E2DE0CA0022A9A0 /* Assets.xcassets */,
+				70B2C1AF1E2DE0CA0022A9A0 /* LaunchScreen.storyboard */,
+				70B2C1B21E2DE0CA0022A9A0 /* Info.plist */,
+				70B2C1D41E2DE1350022A9A0 /* HLCoreData.swift */,
+				7015D7731E2DE3560062D84D /* BMKSwiftDemo-Bridging-Header.h */,
+			);
+			path = HLMap;
+			sourceTree = "<group>";
+		};
+		70B2C1BA1E2DE0CA0022A9A0 /* HLMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				70B2C1BB1E2DE0CA0022A9A0 /* HLMapTests.swift */,
+				70B2C1BD1E2DE0CA0022A9A0 /* Info.plist */,
+			);
+			path = HLMapTests;
+			sourceTree = "<group>";
+		};
+		70B2C1C51E2DE0CA0022A9A0 /* HLMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70B2C1C61E2DE0CA0022A9A0 /* HLMapUITests.swift */,
+				70B2C1C81E2DE0CA0022A9A0 /* Info.plist */,
+			);
+			path = HLMapUITests;
+			sourceTree = "<group>";
+		};
+		A29622CC460C1622407CACB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24415CD71007782743B45512 /* libPods-HLMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7015D7741E2DE3A40062D84D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70B2C1A21E2DE0CA0022A9A0 /* HLMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B2C1CB1E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMap" */;
+			buildPhases = (
+				9395793C4F77834FA22C1071 /* [CP] Check Pods Manifest.lock */,
+				70B2C19F1E2DE0CA0022A9A0 /* Sources */,
+				70B2C1A01E2DE0CA0022A9A0 /* Frameworks */,
+				70B2C1A11E2DE0CA0022A9A0 /* Resources */,
+				9BDDBA5230E5D4B8FE8DF9F8 /* [CP] Embed Pods Frameworks */,
+				B44B11CECB557D0BD5C15491 /* [CP] Copy Pods Resources */,
+				7015D7741E2DE3A40062D84D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLMap;
+			productName = HLMap;
+			productReference = 70B2C1A31E2DE0CA0022A9A0 /* HLMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B2C1B61E2DE0CA0022A9A0 /* HLMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B2C1CE1E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMapTests" */;
+			buildPhases = (
+				70B2C1B31E2DE0CA0022A9A0 /* Sources */,
+				70B2C1B41E2DE0CA0022A9A0 /* Frameworks */,
+				70B2C1B51E2DE0CA0022A9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B2C1B91E2DE0CA0022A9A0 /* PBXTargetDependency */,
+			);
+			name = HLMapTests;
+			productName = HLMapTests;
+			productReference = 70B2C1B71E2DE0CA0022A9A0 /* HLMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70B2C1C11E2DE0CA0022A9A0 /* HLMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B2C1D11E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMapUITests" */;
+			buildPhases = (
+				70B2C1BE1E2DE0CA0022A9A0 /* Sources */,
+				70B2C1BF1E2DE0CA0022A9A0 /* Frameworks */,
+				70B2C1C01E2DE0CA0022A9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B2C1C41E2DE0CA0022A9A0 /* PBXTargetDependency */,
+			);
+			name = HLMapUITests;
+			productName = HLMapUITests;
+			productReference = 70B2C1C21E2DE0CA0022A9A0 /* HLMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B2C19B1E2DE0CA0022A9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "黄露";
+				TargetAttributes = {
+					70B2C1A21E2DE0CA0022A9A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					70B2C1B61E2DE0CA0022A9A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70B2C1A21E2DE0CA0022A9A0;
+					};
+					70B2C1C11E2DE0CA0022A9A0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70B2C1A21E2DE0CA0022A9A0;
+					};
+				};
+			};
+			buildConfigurationList = 70B2C19E1E2DE0CA0022A9A0 /* Build configuration list for PBXProject "HLMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B2C19A1E2DE0CA0022A9A0;
+			productRefGroup = 70B2C1A41E2DE0CA0022A9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B2C1A21E2DE0CA0022A9A0 /* HLMap */,
+				70B2C1B61E2DE0CA0022A9A0 /* HLMapTests */,
+				70B2C1C11E2DE0CA0022A9A0 /* HLMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B2C1A11E2DE0CA0022A9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2C1B11E2DE0CA0022A9A0 /* LaunchScreen.storyboard in Resources */,
+				70B2C1AE1E2DE0CA0022A9A0 /* Assets.xcassets in Resources */,
+				70B2C1AC1E2DE0CA0022A9A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1B51E2DE0CA0022A9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1C01E2DE0CA0022A9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9395793C4F77834FA22C1071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDDBA5230E5D4B8FE8DF9F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLMap/Pods-HLMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44B11CECB557D0BD5C15491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLMap/Pods-HLMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B2C19F1E2DE0CA0022A9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2C1A91E2DE0CA0022A9A0 /* ViewController.swift in Sources */,
+				70B2C1A71E2DE0CA0022A9A0 /* AppDelegate.swift in Sources */,
+				70B2C1D51E2DE1350022A9A0 /* HLCoreData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1B31E2DE0CA0022A9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2C1BC1E2DE0CA0022A9A0 /* HLMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C1BE1E2DE0CA0022A9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2C1C71E2DE0CA0022A9A0 /* HLMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B2C1B91E2DE0CA0022A9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B2C1A21E2DE0CA0022A9A0 /* HLMap */;
+			targetProxy = 70B2C1B81E2DE0CA0022A9A0 /* PBXContainerItemProxy */;
+		};
+		70B2C1C41E2DE0CA0022A9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B2C1A21E2DE0CA0022A9A0 /* HLMap */;
+			targetProxy = 70B2C1C31E2DE0CA0022A9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B2C1AA1E2DE0CA0022A9A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B2C1AB1E2DE0CA0022A9A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70B2C1AF1E2DE0CA0022A9A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B2C1B01E2DE0CA0022A9A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B2C1C91E2DE0CA0022A9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B2C1CA1E2DE0CA0022A9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B2C1CC1E2DE0CA0022A9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70793A90001B7B396462070B /* Pods-HLMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLMap/BMKSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70B2C1CD1E2DE0CA0022A9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B5AE12B8097ED19ED5C8B0 /* Pods-HLMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLMap/BMKSwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70B2C1CF1E2DE0CA0022A9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMap.app/HLMap";
+			};
+			name = Debug;
+		};
+		70B2C1D01E2DE0CA0022A9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLMap.app/HLMap";
+			};
+			name = Release;
+		};
+		70B2C1D21E2DE0CA0022A9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HLMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HLMap;
+			};
+			name = Debug;
+		};
+		70B2C1D31E2DE0CA0022A9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HLMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zlzf.com.HLMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HLMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B2C19E1E2DE0CA0022A9A0 /* Build configuration list for PBXProject "HLMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2C1C91E2DE0CA0022A9A0 /* Debug */,
+				70B2C1CA1E2DE0CA0022A9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B2C1CB1E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2C1CC1E2DE0CA0022A9A0 /* Debug */,
+				70B2C1CD1E2DE0CA0022A9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B2C1CE1E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2C1CF1E2DE0CA0022A9A0 /* Debug */,
+				70B2C1D01E2DE0CA0022A9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B2C1D11E2DE0CA0022A9A0 /* Build configuration list for PBXNativeTarget "HLMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2C1D21E2DE0CA0022A9A0 /* Debug */,
+				70B2C1D31E2DE0CA0022A9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B2C19B1E2DE0CA0022A9A0 /* Project object */;
+}
